@@ -31,7 +31,8 @@ html{
 }
 @media (max-width: 46.1875em){
     .container .container-content{
-        min-width: 398px;
+        /* min-width: 398px; */
+        min-width: 388px;
     }
 }
 .content .content-bot{
