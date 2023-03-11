@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    display: flex;
+    justify-content: center;
+    background-color: #202020;
+}
+.container{
+    margin-top: 100px;
+}
+.container .header{
+    position: relative;
+    font-family: 'Rouge Script', cursive;
+    font-size: 100px;
+    line-height: 100px;
+    margin-bottom: 30px;
+    text-shadow: 3px 5px 40px #84a98c;
+    text-align: center;
+    color: #bdd6ad;
+}
+.container .container-content{
+    position: relative;
+    min-width: 450px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #202020;
+    box-shadow: 0 0 40px 12px #8466ac;
+}
+@media (max-width: 46.1875em){
+    .container .container-content{
+        min-width: 398px;
+    }
+}
+.content .content-bot{
+    width: 50%;
+    padding: 12px 0;
+    display: block;
+    letter-spacing: 1.3px;
+    color: #d6d6d6;
+}
+.content .content-bot:hover{
+    font-size: 20px;
+    width: 200px;
+}
+.content .content-input{
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 10px;
+    border: 2.2px solid #ffd100;
+    outline: none;
+    display: block;
+    background-color: #dde5b6;
+}
+.content .content-input:hover{
+    border-radius: 50px;
+    border: 3px solid #7209b7;
+    box-shadow: 0 0 20px 5px #8466ac;
+    background-color: #202020;
+    color: #d6d6d6;
+    outline: none;
+}
+.content input[type="email"]::placeholder,
+.content input[type="password"]::placeholder{
+    transform: translateX(15px);
+    letter-spacing: 2px;
+    color: #6c584c;
+}
+.container-content .login{
+    padding: 30px 0;
+    text-align: center;
+}
+.btn-login{
+    height: 50px;
+    width: 35%;
+    border-radius: 50px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #fdc5f5;
+    border: 2px solid #e85d04;
+    background-color: #f28482;
+}
+.btn-login:hover{
+    border: 2px solid #d8e2dc;
+    color: #d8e2dc;
+    background-color: #bb3e03;
+}
+.container-content .footer-login-left{
+    display: inline-block;
+}
+.enter-again{
+    padding: 5px;
+    border-radius: 5px;
+    transition: .3s;
+    border: none;
+    cursor: pointer;
+    color: #858ae3;
+    box-shadow: 0 6px #1e0637;
+    background-color: #4e148c;
+}
+.enter-again:active{
+    transform: translateY(6px);
+    box-shadow: none;
+    color: #9d4edd;
+}
+.container-content .footer-login-right{
+    display: inline-block;
+}
+.forgot{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    opacity: .8;
+    text-decoration: none;
+    color: #9d4eddaa;
+}
+.forgot:hover{
+    color: #9d4edd;
+}
